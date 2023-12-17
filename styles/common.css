@@ -1,0 +1,14 @@
+body {
+    padding: 0;
+    margin: 0;
+    /* font-size: 1.5rem; */
+    font-family: Manrope;
+    color: #2F2F2F;
+    /* background-color: aquamarine; */
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
