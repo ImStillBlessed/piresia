@@ -1,0 +1,72 @@
+.about-us {
+    padding: 50px 50px;
+    background-image: url(../images/Vector\ 200.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 1vh; */
+}
+
+.about-us section {
+    width: 50%;
+    padding: 50px;
+}
+.about-us section .card {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5rem;
+    background: #39B54A;
+    box-shadow: 0px 36px 18px 0px rgba(0, 0, 0, 0.10);
+}
+.card .head-img {
+    height: 200px;
+    width: 200px;
+    background: #22f23e;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.buttons {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin: 20px 0 30px 0;
+}
+
+section .buttons button {
+    padding: 15px 50px;
+    background: #28C840;
+    border-radius: 30px;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 2px solid transparent;
+    transition: all 200ms;
+    /* width: 100%; */
+}
+/* remember to make the buttons same size in block view use 50% for each */
+section .buttons .courses {
+    color: #000;
+    background: #84FFA5;
+    border: 2px solid transparent;
+}
+
+section .buttons button:hover {
+    scale: 1.1;
+    opacity: .9;
+    border: 2px solid transparent;
+    color: #000000d4;
+    transition: all 200ms;
+}

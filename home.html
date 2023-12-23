@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/introduction.css">
+    <link rel="stylesheet" href="./styles/courses.css">
+    <link rel="stylesheet" href="./styles/about.css">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet">
 </head>
@@ -18,11 +21,11 @@
         <div class="logo">
         </div>
 
-        <nav class="navigations">
+        <nav class="navigations hover-underline-animation">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Courses</a></li>
-                <li><a href="#">prices</a></li>
+                <li><a class="hover-underline-animation" href="#">Home</a></li>
+                <li><a class="hover-underline-animation" href="#">Courses</a></li>
+                <li><a class="hover-underline-animation" href="#">prices</a></li>
             </ul>
             <button>Sign up</button>
         </nav>
@@ -32,12 +35,7 @@
     <main>
         <div class="introduction">
             <section class="images">
-                <!-- <div class="elipse">
-                    <img src="/images/elipse.png" alt="">
-                </div> -->
-                <div class="owl">
-                    <!-- <img src="/images/owl-full.png" alt="perisia owl"> -->
-                </div>
+                <div class="owl"></div>
             </section>
             <section class="articles">
                 <div class="content">
@@ -62,6 +60,105 @@
                     </div>
                 </div>
             </section>
+        </div>
+
+        <!-- courses section. -->
+        <div class="courses">
+            <!-- head text  -->
+            <div class="header">
+                <div class="headtext">
+                    <h1>Our popular courses</h1>
+                    <h3>learn on the go with our carefully curated courses</h3>
+                </div>
+                <button class="headbtn">
+                    See more
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 46 46" fill="none">
+                        <circle cx="23" cy="23" r="23" fill="#28C840"/>
+                        <path d="M16.3409 14L31 24.7391L24.5227 28.0435L16 33" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                    </svg>
+                </button>
+            </div>
+            
+            <div class="cards">
+                <div class="card">
+                    <a href="#">
+                        <div class="bio-img"></div>
+                        <div class="title">
+                            <h2>Bioloy</h2>
+                            <div class="rating">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="18" viewBox="0 0 21 18" fill="none">
+                                    <path d="M10.7602 0.463867L13.0974 7.03997H20.6609L14.5419 11.1042L16.8791 17.6803L10.7602 13.6161L4.64117 17.6803L6.97841 11.1042L0.859428 7.03997H8.42291L10.7602 0.463867Z" fill="#FEA31B"/>
+                                </svg>
+                                4.5
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sapiente corporis ab!</p>
+                        <div class="title">
+                            <h2>#3000</h2>
+                            <button>Enroll Now</button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <div class="chm-img"></div>
+                        <div class="title">
+                            <h2>Chemistry</h2>
+                            <div class="rating">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="18" viewBox="0 0 21 18" fill="none">
+                                    <path d="M10.7602 0.463867L13.0974 7.03997H20.6609L14.5419 11.1042L16.8791 17.6803L10.7602 13.6161L4.64117 17.6803L6.97841 11.1042L0.859428 7.03997H8.42291L10.7602 0.463867Z" fill="#FEA31B"/>
+                                </svg>
+                                4.5
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sapiente corporis ab!</p>
+                        <div class="title">
+                            <h2>#3000</h2>
+                            <button>Enroll Now</button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <div class="mat-img"></div>
+                        <div class="title">
+                            <h2>Mathematics</h2>
+                            <div class="rating">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="18" viewBox="0 0 21 18" fill="none">
+                                    <path d="M10.7602 0.463867L13.0974 7.03997H20.6609L14.5419 11.1042L16.8791 17.6803L10.7602 13.6161L4.64117 17.6803L6.97841 11.1042L0.859428 7.03997H8.42291L10.7602 0.463867Z" fill="#FEA31B"/>
+                                </svg>
+                                4.5
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sapiente corporis ab!</p>
+                        <div class="title">
+                            <h2>#3000</h2>
+                            <button>Enroll Now</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- About us section  -->
+        <div class="about-us">
+                <section>
+                    <div class="card">
+                        <div class="head-img">
+                            <img src="./images/owl-head.png" alt="piresia owl">
+                        </div>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quos sequi ad magni beatae inventore reprehenderit et dolorum quod quasi?</h3>
+                    </div>
+                </section>
+                <section>
+                    <h3>About us</h3>
+                    <h1>The <span>Piresia</span> classroom</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis alias doloribus deserunt totam culpa ea enim sed voluptas quibusdam veniam?</p>
+                    <div class="buttons">
+                        <button>Sign up</button>
+                        <button class="courses">See courses</button>
+                    </div>
+                </section>
         </div>
 
     </main>
